@@ -1,8 +1,8 @@
-import Magician from './Magician';
+import PlayerBase from './PlayerBase';
 
-export default class Daemon extends Magician {
+export default class Daemon extends PlayerBase {
     constructor() {
         super();
-        this.baseDamage = 100;
+        this.stoned = true;
     }
 }
